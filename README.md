@@ -20,7 +20,7 @@ For part 2 of this project I develop a baseline model utilizing a Naive Bayes cl
 
 
 ### Installation
-To achieve this summarization, the following Python libraries and methods are employed:
+To achieve this summarization, the following Python libraries and methods are used:
 
 - `pandas` for data manipulation and analysis.
 - `numpy` for numerical operations.
