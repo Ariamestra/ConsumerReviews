@@ -40,10 +40,28 @@ To achieve this summarization, the following Python libraries and methods are us
 - `FreqDist` for the frequency distribution of words.
 
 ## Part Three
-Pre-trained deep learning model (t5-small)
+
+Part 3 of this project focuses on developing a model using a pre-trained model to generate short, clear summaries of customer reviews, allowing users to quickly understand feedback on products. The system classifies these summaries into positive, neutral, or negative categories, matching the original review's sentiment. I've chosen the T5-small model for this task, a pre-trained text-to-text transformer because of its summarization capabilities and manageable size. The model was initially trained using logistic regression and tuned through Bayesian Optimization and Randomized Search, with Bayesian Optimization being the most effective in the summarization process.
 
 
 ### Installation
+To achieve this summarization, the following Python libraries and methods are used:
+
+- `pandas`: For data manipulation and analysis.
+- `numpy`: Support for large, multi-dimensional arrays and matrices.
+- `matplotlib`: For creating static, animated, and interactive visualizations.
+- `torch`: For deep learning.
+- `nltk`: A suite of libraries for natural language processing.
+- `sentencepiece`: For text tokenization and detokenization.
+- `transformers`: State-of-the-art natural language processing for TensorFlow 2.0 and PyTorch.
+- `re`: Provides regular expression matching operations.
+- `sklearn`: A machine learning library for Python.
+- `hyperopt`: A library for serial and parallel optimization.
+- `scipy`: Used for scientific and technical computing.
+- `string`: For common string operations.
+- `sys`: Access to some variables used or maintained by the Python interpreter.
+
+
 
 
 
