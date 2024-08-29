@@ -15,6 +15,10 @@ Before starting with the analysis, ensure the following Python libraries are ins
 - `matplotlib`: A plotting library for creating static, interactive, and animated visualizations in Python.
 - `seaborn`: A Python data visualization library based on matplotlib that provides a high-level interface for drawing attractive statistical graphics.
 
+![Distribution of Customer Ratings Image] (Images/Screenshot 2024-08-29 at 10.41.09 AM.png)
+
+![Distribution of Customer Ratings Image] (/workspaces/ConsumerReviews/Images/Screenshot 2024-08-29 at 10.41.09 AM.png)
+
 ## Part Two
 For part 2 of this project I develop a baseline model utilizing a Naive Bayes classifier to summarize customer reviews efficiently. The system is designed to extract the essential information and rating from each review and condense them into a summarized review. These summaries will be labeled as positive, neutral, or negative to match the rating of the review. The effectiveness of the model is be evaluated by its accuracy and log loss metrics to guarantee the dependability of the summaries and the accuracy of the sentiment classification.
 
