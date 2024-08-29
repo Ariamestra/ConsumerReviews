@@ -15,17 +15,9 @@ Before starting with the analysis, ensure the following Python libraries are ins
 - `matplotlib`: A plotting library for creating static, interactive, and animated visualizations in Python.
 - `seaborn`: A Python data visualization library based on matplotlib that provides a high-level interface for drawing attractive statistical graphics.
 
-![Distribution of Customer Ratings Image] (Images/Screenshot 2024-08-29 at 10.41.09 AM.png)
-
-![Distribution of Customer Ratings Image] (/workspaces/ConsumerReviews/Images/Screenshot 2024-08-29 at 10.41.09 AM.png)
-
-![Distribution of Customer Ratings Image](/workspaces/ConsumerReviews/Images/Screenshot%202024-08-29%20at%2010.41.09%20AM.png)
-
-
-
-![Distribution of Customer Ratings Image](Images/Screenshot%202024-08-29%20at%2010.41.09%20AM.png)
-
-
+![Distribution of Customer Ratings Image](Images/1.png)
+![Review Length Image](Images/2.png)
+![Most Common Word Image](Images/3.png)
 
 ## Part Two
 For part 2 of this project I develop a baseline model utilizing a Naive Bayes classifier to summarize customer reviews efficiently. The system is designed to extract the essential information and rating from each review and condense them into a summarized review. These summaries will be labeled as positive, neutral, or negative to match the rating of the review. The effectiveness of the model is be evaluated by its accuracy and log loss metrics to guarantee the dependability of the summaries and the accuracy of the sentiment classification.
@@ -51,6 +43,8 @@ To achieve this summarization, the following Python libraries and methods are us
 - `wordcloud` for visual representation of text data.
 - `FreqDist` for the frequency distribution of words.
 
+![Part 2 Example Image](Images/4.png)
+
 ## Part Three
 
 Part 3 of this project focuses on developing a model using a pre-trained model to generate short, clear summaries of customer reviews, allowing users to quickly understand feedback on products. The system classifies these summaries into positive, neutral, or negative categories, matching the original review's sentiment. I've chosen the T5-small model for this task, a pre-trained text-to-text transformer because of its summarization capabilities and manageable size. The model was initially trained using logistic regression and tuned through Bayesian Optimization and Randomized Search, with Bayesian Optimization being the most effective in the summarization process.
@@ -72,6 +66,8 @@ To achieve this summarization, the following Python libraries and methods are us
 - `scipy`: Used for scientific and technical computing.
 - `string`: For common string operations.
 - `sys`: Access to some variables used or maintained by the Python interpreter.
+
+![Part 3 Example Image](Images/5.png)
 
 
 
